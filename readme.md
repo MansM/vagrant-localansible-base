@@ -7,7 +7,7 @@ This environment allows you to develop ansible code for new roles
 
 * Make sure you are on a connection without a proxy (by example a guest wifi)
 * Install Vagrant & virtualbox
-  * http://wwww.vagrantup.com
+  * http://www.vagrantup.com
   * http://www.virtualbox.org
 * Add Vagrant binary to your Path
 
