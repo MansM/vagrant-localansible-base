@@ -16,7 +16,7 @@ This environment allows you to develop ansible code for new roles
 vagrant up
 ```
 
-## Create ansible role creation
+## Create ansible roles
 
 [see creating role](creatingrole.md)
 
