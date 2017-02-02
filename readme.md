@@ -27,3 +27,9 @@ startover: vagrant destroy -f && vagrant up
 
 in the VM you find your files in /vagrant
 
+in the Vagrantfile you can change the amount of output of ansible by adding up to vvvv
+```
+ansible.verbose = "v"
+up to 
+ansible.verbose = "vvvv"
+````
