@@ -9,12 +9,12 @@ Vagrant.configure(2) do |config|
   end
 
 
-  config.vm.define "manager1" do |vmconfig|
-    vmconfig.vm.hostname = "manager1"
+  config.vm.define "ansible-centos" do |vmconfig|
+    vmconfig.vm.hostname = "ansible-centos"
     vmconfig.vm.network "private_network", ip: "172.16.55.11"
     vmconfig.vm.provision "shell", inline: "yum install -y epel-release && yum install -y ansible"
     vmconfig.vm.provision "ansible_local" do |ansible|
-      ansible.playbook =  "ansible/playbook.yml"
+      ansible.playbook =  "playbook.yml"
       ansible.sudo = true
       ansible.verbose = "v"
     end

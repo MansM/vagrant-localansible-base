@@ -16,6 +16,10 @@ This environment allows you to develop ansible code for new roles
 vagrant up
 ```
 
+## Create ansible role creation
+
+[see creating role](createrole.md)
+
 ## Tips
 Username & Password : vagrant/vagrant (rootpw = vagrant)
 
