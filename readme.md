@@ -21,7 +21,7 @@ Username & Password : vagrant/vagrant
 
 ssh access: vagrant ssh
 
-reprovision without destroy: vagrant destroy
+reprovision without destroy: vagrant provision
 
 startover: vagrant destroy -f && vagrant up
 
