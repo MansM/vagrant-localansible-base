@@ -17,11 +17,13 @@ vagrant up
 ```
 
 ## Tips
-Username & Password : vagrant/vagrant
+Username & Password : vagrant/vagrant (rootpw = vagrant)
 
 ssh access: vagrant ssh
 
 reprovision without destroy: vagrant provision
 
 startover: vagrant destroy -f && vagrant up
+
+in the VM you find your files in /vagrant
 
